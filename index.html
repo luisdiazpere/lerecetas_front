@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeBron's Kitchen · The Way of the GOAT</title>
+  <meta name="description" content="Recipes from the GOAT himself — LeBron James' favorite meals across every era of his legendary career." />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen antialiased">
+
+  <header id="site-header" class="sticky top-0 z-50 bg-zinc-950/95 backdrop-blur-md border-b border-zinc-800/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+      <a href="#/" class="flex items-center gap-2 group">
+        <span class="text-2xl">👑</span>
+        <span class="text-lg font-bold tracking-tight text-amber-400 group-hover:text-amber-300 transition-colors hidden sm:block">
+          LeBron's Kitchen
+        </span>
+      </a>
+      <nav id="nav-tabs" class="flex gap-1" role="navigation" aria-label="Main navigation">
+        <a href="#/" data-route="recipes"
+           class="nav-tab px-3 sm:px-4 py-2 rounded-lg text-sm font-medium text-zinc-400 hover:text-white transition-all duration-200">
+          🍽️ <span class="hidden sm:inline">Recipes</span>
+        </a>
+        <a href="#/goat" data-route="goat"
+           class="nav-tab px-3 sm:px-4 py-2 rounded-lg text-sm font-medium text-zinc-400 hover:text-white transition-all duration-200">
+          🏆 <span class="hidden sm:inline">The Way of the GOAT</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="min-h-[calc(100vh-4rem)]"></main>
+
+  <footer class="border-t border-zinc-800/60 py-8 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center text-zinc-600 text-sm">
+      <p>Made with 💛 for the GOAT · <em>"Strive for greatness."</em> — LeBron James</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
